@@ -97,4 +97,10 @@ public class StepDefinitions {
         Assert.assertEquals(msg, elements.get(0).getText());
     }
 
+    @Then("A MY ACCOUNT title is shown")
+    public void aMYACCOUNTTitleIsShown() {
+        List<WebElement> elements = driver.findElements(By.xpath("//*[@id=\"center_column\"]/h1"));
+        Assert.assertNotEquals(0, elements.size());
+        Assert.assertEquals("MY ACCOUNT", elements.get(0).getText());
+    }
 }
