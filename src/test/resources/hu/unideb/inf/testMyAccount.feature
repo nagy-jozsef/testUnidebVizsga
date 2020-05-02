@@ -19,3 +19,7 @@ Feature: YorLogo Account processes
       | field     | value      | field1     | value1     |
       | 'email' | 'nj@unideb.com' | 'passwd' | 'PWD123@' |
 
+  Scenario:
+    Given The My Personal Info link is clicked
+    Then Check personal info
+

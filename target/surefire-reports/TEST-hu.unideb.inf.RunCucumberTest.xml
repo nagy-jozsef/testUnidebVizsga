@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="hu.unideb.inf.RunCucumberTest" time="38.02" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="hu.unideb.inf.RunCucumberTest" time="62.625" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.212.03-hotspot\jre\bin"/>
@@ -65,13 +65,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="YorLogo Account processes" name="EMPTY_NAME" time="9.395"/>
-  <testcase classname="YourLogo Contact Us process" name="Full empty message, no email" time="3.101"/>
-  <testcase classname="YourLogo Contact Us process" name="Bad email and good email" time="3.756"/>
-  <testcase classname="YourLogo Contact Us process" name="Bad email and good email" time="3.296"/>
-  <testcase classname="YourLogo Contact Us process" name="Message into id_order, message into message, no subject" time="3.606"/>
-  <testcase classname="YourLogo Contact Us process" name="Message into id_order, message into message, no subject" time="3.803"/>
-  <testcase classname="YourLogo Contact Us process" name="Bad or good email, order number into id_order, message text into message, no subject" time="3.15"/>
-  <testcase classname="YourLogo Contact Us process" name="Bad or good email, order number into id_order, message text into message, no subject" time="3.546"/>
-  <testcase classname="YourLogo Contact Us process" name="Good message process" time="4.367"/>
+  <testcase classname="YorLogo Account processes" name="EMPTY_NAME" time="10.825"/>
+  <testcase classname="YourLogo Contact Us process" name="Full empty message, no email" time="6.167"/>
+  <testcase classname="YourLogo Contact Us process" name="Bad email and good email" time="5.992"/>
+  <testcase classname="YourLogo Contact Us process" name="Bad email and good email" time="4.364"/>
+  <testcase classname="YourLogo Contact Us process" name="Message into id_order, message into message, no subject" time="4.295"/>
+  <testcase classname="YourLogo Contact Us process" name="Message into id_order, message into message, no subject" time="3.589"/>
+  <testcase classname="YourLogo Contact Us process" name="Bad or good email, order number into id_order, message text into message, no subject" time="3.609"/>
+  <testcase classname="YourLogo Contact Us process" name="Bad or good email, order number into id_order, message text into message, no subject" time="3.648"/>
+  <testcase classname="YourLogo Contact Us process" name="Good message process" time="3.809"/>
+  <testcase classname="YorLogo Account processes" name="False login" time="3.874"/>
+  <testcase classname="YorLogo Account processes" name="Succesfull login" time="7.504"/>
+  <testcase classname="YorLogo Account processes" name="EMPTY_NAME" time="4.949"/>
 </testsuite>

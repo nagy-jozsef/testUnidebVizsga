@@ -103,4 +103,21 @@ public class StepDefinitions {
         Assert.assertNotEquals(0, elements.size());
         Assert.assertEquals("MY ACCOUNT", elements.get(0).getText());
     }
+
+    @Given("The My Personal Info link is clicked")
+    public void theMyPersonalInfoLinkIsClicked() {
+        driver.findElement(By.xpath("//*[@id=\"footer\"]/div/section[5]/div/ul/li[4]/a")).click();
+    }
+
+    @Then("Check personal info")
+    public void checkPersonalInfo() {
+        String firstName = driver.findElement(By.id("firstname")).getAttribute("Value");
+        Assert.assertEquals("Jozsef", firstName);
+
+        String lastName = driver.findElement(By.id("lastname")).getAttribute("Value");
+        Assert.assertEquals("Nagy", lastName);
+
+        String emailAddress = driver.findElement(By.id("email")).getAttribute("Value");
+        Assert.assertEquals("nj@unideb.com", emailAddress);
+    }
 }
